@@ -6,60 +6,94 @@
   <title>Cedric Baer – Technical Writer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
       background: #f7f9fc;
       color: #333;
+      display: flex;
+      min-height: 100vh;
     }
-    header {
-      background: #0e1d34;
+    /* Sidebar (left) */
+    nav {
+      width: 220px;
+      background-color: #2e3440;
       color: white;
-      padding: 2rem;
-      text-align: center;
+      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+    nav h2 {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0.75rem 0;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+    nav a:hover {
+      color: #88c0d0;
+    }
+
+    /* Main content */
     main {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
+      flex-grow: 1;
+      padding: 2rem 3rem;
       background: white;
+      max-width: 900px;
     }
     h1, h2 {
       color: #0e1d34;
+      margin-bottom: 0.75rem;
     }
     section {
       margin-bottom: 2.5rem;
     }
-    .samples a {
-      display: block;
-      margin: 0.5rem 0;
+    ul {
+      padding-left: 1.2rem;
+    }
+    a {
       color: #0056b3;
-      text-decoration: none;
     }
     footer {
+      margin-top: 3rem;
       text-align: center;
-      padding: 1rem;
       font-size: 0.9rem;
-      color: #666;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Cedric Baer</h1>
-    <p>Technical Writer | Documentation Strategist | API Communicator</p>
-  </header>
+  <!-- Sidebar -->
+  <nav>
+    <h2>Cedric Baer</h2>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#samples">Writing Samples</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main content -->
   <main>
-    <section>
+    <section id="about">
       <h2>About Me</h2>
       <p>
         I'm a technical writer with a passion for clear, user-focused documentation. I specialize in developer docs, API references, and product guides that help users get the job done faster and with confidence.
       </p>
     </section>
 
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
       <ul>
         <li>API Documentation (OpenAPI, Swagger)</li>
@@ -70,23 +104,40 @@
       </ul>
     </section>
 
-    <section class="samples">
+    <section id="samples">
       <h2>Writing Samples</h2>
-      <a href="https://cedricbaer.github.io/api-docs-portfolio" target="_blank">API Documentation Sample</a>
-      <a href="https://cedricbaer.github.io/ux-writing" target="_blank">UX Writing Case Study</a>
-      <a href="https://cedricbaer.github.io/markdown-docs" target="_blank">Markdown-Based Guide</a>
+      <ul>
+        <li><a href="https://cedricbaer.github.io/api-docs-portfolio" target="_blank">API Documentation Sample</a></li>
+        <li><a href="https://cedricbaer.github.io/ux-writing" target="_blank">UX Writing Case Study</a></li>
+        <li><a href="https://cedricbaer.github.io/markdown-docs" target="_blank">Markdown-Based Guide</a></li>
+      </ul>
     </section>
 
-    <section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>[Describe notable documentation or writing projects you’ve led or contributed to]</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>[List your most relevant technical writing experience here]</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>[Add degrees, certifications, or writing-specific training]</p>
+    </section>
+
+    <section id="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:cedric@example.com">cedric@example.com</a></p>
       <p>LinkedIn: <a href="https://linkedin.com/in/cedricbaer" target="_blank">linkedin.com/in/cedricbaer</a></p>
       <p>GitHub: <a href="https://github.com/cedricbaer" target="_blank">github.com/cedricbaer</a></p>
     </section>
-  </main>
 
-  <footer>
-    &copy; 2025 Cedric Baer. All rights reserved.
-  </footer>
+    <footer>
+      &copy; 2025 Cedric Baer. All rights reserved.
+    </footer>
+  </main>
 </body>
 </html>
