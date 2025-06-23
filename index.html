@@ -13,56 +13,70 @@
     }
     body {
       font-family: 'Inter', sans-serif;
-      background: #f7f9fc;
-      color: #333;
       display: flex;
       min-height: 100vh;
+      color: #333;
     }
-    /* Sidebar (left) */
-    nav {
-      width: 220px;
-      background-color: #2e3440;
-      color: white;
+
+    /* LEFT PANEL */
+    .sidebar {
+      width: 250px;
+      background-color: #f0f0f0;
       padding: 2rem 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
+      border-right: 1px solid #ddd;
     }
-    nav h2 {
-      font-size: 1.4rem;
-      margin-bottom: 2rem;
+    .photo-container {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin-bottom: 1.5rem;
     }
-    nav a {
-      color: white;
+    .nav-links {
+      list-style: none;
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+    .nav-links li {
+      margin: 1rem 0;
+    }
+    .nav-links a {
       text-decoration: none;
-      margin: 0.75rem 0;
-      font-weight: 500;
-      transition: 0.2s;
+      color: #333;
+      font-weight: bold;
     }
-    nav a:hover {
-      color: #88c0d0;
+    .nav-links a:hover {
+      color: #0077cc;
     }
 
-    /* Main content */
+    /* RIGHT PANEL */
     main {
-      flex-grow: 1;
+      flex: 1;
       padding: 2rem 3rem;
-      background: white;
-      max-width: 900px;
+      background-color: #ffffff;
     }
-    h1, h2 {
-      color: #0e1d34;
-      margin-bottom: 0.75rem;
-    }
+
     section {
       margin-bottom: 2.5rem;
     }
-    ul {
-      padding-left: 1.2rem;
+
+    h2 {
+      margin-bottom: 0.5rem;
+      color: #0e1d34;
     }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
     a {
       color: #0056b3;
     }
+
     footer {
       margin-top: 3rem;
       text-align: center;
@@ -72,72 +86,55 @@
   </style>
 </head>
 <body>
-  <!-- Sidebar -->
-  <nav>
-    <h2>Cedric Baer</h2>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#samples">Writing Samples</a>
-    <a href="#experience">Experience</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
-  </nav>
 
-  <!-- Main content -->
+  <!-- LEFT PANEL -->
+  <aside class="sidebar">
+    <div class="photo-container"></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+  </aside>
+
+  <!-- RIGHT PANEL -->
   <main>
     <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I'm a technical writer with a passion for clear, user-focused documentation. I specialize in developer docs, API references, and product guides that help users get the job done faster and with confidence.
-      </p>
+      <h2>About</h2>
+      <p>I am a technical writer with a passion for clear, structured, and user-oriented documentation. My work supports developers and end-users by making complex systems easy to understand.</p>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
       <ul>
-        <li>API Documentation (OpenAPI, Swagger)</li>
-        <li>Markdown, HTML, Git</li>
-        <li>Confluence, Notion, ReadMe, GitBook</li>
-        <li>UX Writing, Content Strategy</li>
-        <li>Tools: VS Code, Postman, JIRA</li>
+        <li>Technical Documentation (APIs, SDKs, UI/UX Guides)</li>
+        <li>Tools: Markdown, Git, Swagger, Docusaurus, Notion</li>
+        <li>Languages: HTML/CSS, basic JavaScript</li>
+        <li>Information Architecture & User Journey Mapping</li>
       </ul>
     </section>
 
-    <section id="samples">
-      <h2>Writing Samples</h2>
-      <ul>
-        <li><a href="https://cedricbaer.github.io/api-docs-portfolio" target="_blank">API Documentation Sample</a></li>
-        <li><a href="https://cedricbaer.github.io/ux-writing" target="_blank">UX Writing Case Study</a></li>
-        <li><a href="https://cedricbaer.github.io/markdown-docs" target="_blank">Markdown-Based Guide</a></li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>[Describe notable documentation or writing projects you’ve led or contributed to]</p>
+    <section id="project">
+      <h2>Project</h2>
+      <p>Major documentation project for a cloud-based API platform, including architecture diagrams, tutorials, and integration guides.</p>
     </section>
 
     <section id="experience">
       <h2>Experience</h2>
-      <p>[List your most relevant technical writing experience here]</p>
+      <p>3+ years working with engineering teams in agile environments, delivering product documentation, onboarding content, and help centers.</p>
     </section>
 
     <section id="education">
       <h2>Education</h2>
-      <p>[Add degrees, certifications, or writing-specific training]</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:cedric@example.com">cedric@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/cedricbaer" target="_blank">linkedin.com/in/cedricbaer</a></p>
-      <p>GitHub: <a href="https://github.com/cedricbaer" target="_blank">github.com/cedricbaer</a></p>
+      <p>Bachelor's in Communication & Technical Writing – University of Exampleville</p>
     </section>
 
     <footer>
       &copy; 2025 Cedric Baer. All rights reserved.
     </footer>
   </main>
+
 </body>
 </html>
