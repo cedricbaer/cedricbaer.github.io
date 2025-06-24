@@ -7,65 +7,76 @@
 body {
   font-family: 'Inter', sans-serif;
   display: flex;
-  flex-direction: row;
   min-height: 100vh;
-  color: #fff;
-  background-color: #1a1a1a;
+  background-color: #2c2c2c;
+  color: #f4f4f4;
 }
 
 /* === SIDEBAR === */
 .sidebar {
-  width: 250px;
-  background-color: #000; /* Dark background like reference */
-  padding: 2rem 1rem;
+  width: 260px;
+  background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid #333;
-  flex-shrink: 0;
+  padding: 2rem 1rem;
+  justify-content: space-between;
 }
 
+.photo-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fca311;
+  margin-bottom: 1rem;
+}
+
+/* Contact icons */
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-links a img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+  transition: opacity 0.2s;
+}
+
+.contact-links a img:hover {
+  opacity: 0.7;
+}
+
+/* Nav menu at bottom */
 .nav-links {
   list-style: none;
-  width: 100%;
-  padding-left: 0;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .nav-links li {
-  margin: 1rem 0;
+  margin: 0.8rem 0;
 }
 
 .nav-links a {
-  text-decoration: none;
   color: #f4f4f4;
+  text-decoration: none;
   font-weight: bold;
   font-size: 0.95rem;
-  transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
   color: #fca311;
 }
 
-/* Profile photo lower */
-.photo-container {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  background-color: #ccc;
-  border: 3px solid #fca311;
-  margin-top: auto;
-}
-
 /* === MAIN CONTENT === */
 main {
   flex: 1;
   padding: 3rem;
-  background-color: #1a1a1a;
-  color: #eaeaea;
+  background-color: #2c2c2c;
 }
 
 section {
@@ -73,21 +84,23 @@ section {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #fca311;
-  border-bottom: 2px solid #fca311;
-  padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
 
-footer {
-  margin-top: 3rem;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
+p, li {
+  line-height: 1.6;
 }
 
-/* === SKILLS TAG STYLING === */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* SKILLS AS TAGS */
 #skills ul {
   list-style: none;
   display: flex;
@@ -98,14 +111,30 @@ footer {
 
 #skills li {
   background-color: #fca311;
-  color: #000;
-  padding: 8px 12px;
+  color: #1f1f1f;
+  padding: 6px 14px;
   border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 0.85rem;
 }
 
-/* === RESPONSIVE DESIGN === */
+/* Download CV Button */
+.cv-button {
+  display: inline-block;
+  background-color: #fca311;
+  color: #1f1f1f;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.cv-button:hover {
+  background-color: #f5a000;
+}
+
+/* Responsive */
 @media screen and (max-width: 768px) {
   body {
     flex-direction: column;
@@ -113,30 +142,24 @@ footer {
 
   .sidebar {
     width: 100%;
-    flex-direction: column;
-    align-items: center;
-    border-right: none;
-    border-bottom: 1px solid #333;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
   }
 
   .nav-links {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-links li {
-    margin: 0.5rem 1rem;
+    gap: 1rem;
+    margin-top: 0;
   }
 
   .photo-container {
-    width: 80px;
-    height: 80px;
-    margin-top: 1.5rem;
+    width: 60px;
+    height: 60px;
   }
 
   main {
-    padding: 1.5rem;
+    padding: 2rem;
   }
 }
