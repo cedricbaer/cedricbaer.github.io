@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 2rem 1rem;
-  color: #5d6166;
+  color: #d2d6da;
 }
 
 .photo-container {
@@ -28,7 +28,7 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #5d6166;
+  border: 3px solid #d2d6da;
   margin-bottom: 1.2rem;
 }
 
