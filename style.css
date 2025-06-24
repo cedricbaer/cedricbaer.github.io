@@ -6,13 +6,13 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #0a192f;
-  color: #ccd6f6;
+  background-color: #2a2f3a;
+  color: #e6e6e6;
 }
 
 .sidebar {
-  background-color: #0a192f;
-  color: #8892b0;
+  background-color: #2a2f3a;
+  color: #b0b0b0;
   padding: 2rem 1rem;
   height: 100vh;
   position: fixed;
@@ -20,15 +20,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid #233554;
+  border-right: 1px solid #3a4050;
 }
 
 .photo-container {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #64ffda;
+  border: 3px solid #d2691e;
   margin-bottom: 1.5rem;
 }
 
@@ -39,11 +39,11 @@ body {
 }
 
 .social-icon {
-  width: 44px;
-  height: 44px;
-  background-color: transparent;
-  color: #8892b0;
-  border: 1px solid #64ffda;
+  width: 40px;
+  height: 40px;
+  background-color: #3a4050;
+  color: #b0b0b0;
+  border: 1px solid #d2691e;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -53,13 +53,12 @@ body {
 }
 
 .social-icon:hover {
-  background-color: #64ffda;
-  color: #0a192f;
-  transform: translateY(-2px);
+  background-color: #d2691e;
+  color: #2a2f3a;
 }
 
 .nav-links .nav-link {
-  color: #8892b0;
+  color: #b0b0b0;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
@@ -69,13 +68,13 @@ body {
 }
 
 .nav-links .nav-link:hover {
-  color: #64ffda;
+  color: #d2691e;
 }
 
 main {
   margin-left: 260px;
   padding: 3rem 4rem;
-  background-color: #0a192f;
+  background-color: #2a2f3a;
   min-height: 100vh;
 }
 
@@ -85,66 +84,81 @@ main {
 
 #cedric-baer {
   margin-bottom: 3rem;
-  padding: 2.5rem;
-  background-color: #112240;
-  border-radius: 12px;
+  padding: 2rem;
+  background-color: #3a4050;
+  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  position: relative;
 }
 
-#cedric-baer::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background-color: #64ffda;
-  border-radius: 12px 12px 0 0;
+#cedric-baer .header-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+#cedric-baer .photo-wrapper {
+  flex-shrink: 0;
+}
+
+#cedric-baer .header-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #d2691e;
+}
+
+#cedric-baer .header-content {
+  flex-grow: 1;
 }
 
 #cedric-baer .section-title {
-  font-size: 3rem;
-  color: #ccd6f6;
-  margin-bottom: 2rem;
-  border-bottom: none;
-  padding-bottom: 0;
+  font-size: 2.5rem;
+  color: #e6e6e6;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #d2691e;
+  padding-bottom: 0.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 2px;
 }
 
 #cedric-baer .lead {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  color: #e6e6e6;
+  margin-bottom: 1.2rem;
   font-weight: 400;
-  color: #ccd6f6;
+}
+
+#cedric-baer .experience-list {
+  list-style: none;
   margin-bottom: 1.5rem;
 }
 
-#cedric-baer p {
-  font-size: 1.3rem;
-  line-height: 1.8;
+#cedric-baer .experience-list li {
+  font-size: 1.1rem;
+  color: #e6e6e6;
+  margin-bottom: 0.8rem;
 }
 
 .section-title {
-  font-size: 1.8rem;
-  color: #64ffda;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #64ffda;
-  padding-bottom: 0.4rem;
+  font-size: 1.6rem;
+  color: #d2691e;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #d2691e;
+  padding-bottom: 0.3rem;
   text-transform: uppercase;
 }
 
 p, li {
-  line-height: 1.7;
+  line-height: 1.6;
   font-size: 0.95rem;
+  color: #e6e6e6;
 }
 
 .card {
   border: none;
-  border-radius: 12px;
-  background-color: #112240;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  background-color: #3a4050;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
 
@@ -153,72 +167,69 @@ p, li {
 }
 
 .card-title {
-  font-size: 1.3rem;
-  color: #ccd6f6;
+  font-size: 1.2rem;
+  color: #e6e6e6;
 }
 
 .card-subtitle {
-  font-size: 1rem;
-  color: #8892b0;
+  font-size: 0.9rem;
+  color: #b0b0b0;
 }
 
 .card-text {
-  font-size: 0.95rem;
-  color: #ccd6f6;
+  font-size: 0.9rem;
+  color: #e6e6e6;
 }
 
 .skill-badge {
   background-color: transparent;
-  color: #ccd6f6;
-  padding: 8px 16px;
-  border: 1px solid #64ffda;
-  border-radius: 20px;
+  color: #e6e6e6;
+  padding: 6px 12px;
+  border: 1px solid #d2691e;
+  border-radius: 15px;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  margin: 6px 12px 6px 0;
+  gap: 6px;
+  margin: 5px 10px 5px 0;
   transition: all 0.3s ease;
 }
 
 .skill-badge:hover {
-  background-color: #64ffda;
-  color: #0a192f;
-  transform: translateY(-2px);
+  background-color: #d2691e;
+  color: #2a2f3a;
 }
 
 .skill-badge i {
-  font-size: 1.1rem;
-  color: #64ffda;
+  font-size: 1rem;
+  color: #d2691e;
 }
 
 .skill-badge:hover i {
-  color: #0a192f;
+  color: #2a2f3a;
 }
 
 .cv-button {
   display: inline-block;
   background-color: transparent;
-  color: #64ffda;
-  padding: 12px 24px;
-  border: 1px solid #64ffda;
-  border-radius: 25px;
+  color: #d2691e;
+  padding: 10px 20px;
+  border: 1px solid #d2691e;
+  border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
-  margin-top: 1.5rem;
+  font-size: 0.95rem;
   transition: all 0.3s ease;
 }
 
 .cv-button:hover {
-  background-color: #64ffda;
-  color: #0a192f;
-  transform: translateY(-2px);
+  background-color: #d2691e;
+  color: #2a2f3a;
 }
 
 .read-more {
-  color: #64ffda;
+  color: #d2691e;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
@@ -226,15 +237,15 @@ p, li {
 }
 
 .read-more:hover {
-  color: #ccd6f6;
+  color: #e6e6e6;
   text-decoration: underline;
 }
 
 footer {
   text-align: center;
-  margin-top: 2.5rem;
-  font-size: 0.9rem;
-  color: #8892b0;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #b0b0b0;
 }
 
 @media screen and (max-width: 768px) {
@@ -251,7 +262,7 @@ footer {
     justify-content: center;
     padding: 1.5rem;
     border-right: none;
-    border-bottom: 1px solid #233554;
+    border-bottom: 1px solid #3a4050;
   }
 
   .nav-links {
@@ -275,15 +286,24 @@ footer {
     padding: 2rem;
   }
 
+  #cedric-baer .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #cedric-baer .photo-wrapper {
+    margin-bottom: 1rem;
+  }
+
   #cedric-baer .section-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   #cedric-baer .lead {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
-  #cedric-baer p {
-    font-size: 1.1rem;
+  #cedric-baer .experience-list li {
+    font-size: 1rem;
   }
 }
