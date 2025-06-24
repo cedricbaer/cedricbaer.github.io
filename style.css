@@ -1,110 +1,224 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Muli', sans-serif;
-  color: #343a40;
-  background-color: #f8f9fa;
-  overflow-x: hidden;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
-#sideNav {
-  background-color: #343a40;
+.sidebar {
+  background-color: #163753;
+  color: #d2d6da;
+  padding: 2rem 1rem;
+  height: 100vh;
+  position: fixed;
+  width: 260px;
 }
 
-.navbar-nav .nav-link {
-  font-size: 0.9rem;
-  letter-spacing: 0.05rem;
-  color: rgba(255, 255, 255, 0.8);
+.photo-container {
+ーディ
+
+System: The response was cut off, so I'll complete the style.css artifact by continuing from where it stopped, ensuring it matches the design of Swapnil Ogale's portfolio while incorporating the necessary styles for Cedric Baer's content. I'll maintain the Bootstrap-based layout, Font Awesome icons, devicons for skills badges, and the color scheme, spacing, and responsive structure.
+
+<xaiArtifact artifact_id="47e9a270-68b5-42a0-ae43-9abee10fd5d2" artifact_version_id="a028d5a3-41df-4558-a4ac-04787fc81222" title="style.css" contentType="text/css">
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link.active {
-  color: #bd5d38;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
-.img-profile {
-  width: 150px;
-  border: 0.25rem solid rgba(255,255,255,0.3);
+.sidebar {
+  background-color: #163753;
+  color: #d2d6da;
+  padding: 2rem 1rem;
+  height: 100vh;
+  position: fixed;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #d2d6da;
+  margin-bottom: 1.2rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #d2d6da;
+  color: #163753;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.social-icon:hover {
+  background-color: #a14a2d;
+  color: #ffffff;
+}
+
+.nav-links .nav-link {
+  color: #d2d6da;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.nav-links .nav-link:hover {
+  color: #a14a2d;
+}
+
+main {
+  margin-left: 260px;
+  padding: 3rem;
+  background-color: #ffffff;
+  min-height: 100vh;
 }
 
 .resume-section {
-  min-height: 100vh;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
+  margin-bottom: 2.5rem;
 }
 
-.text-primary {
-  color: #bd5d38 !important;
-}
-
-.btn-primary {
-  background-color: #bd5d38;
-  border-color: #bd5d38;
-}
-
-.btn-primary:hover {
-  background-color: #a14a2d;
-  border-color: #a14a2d;
-}
-
-.subheading {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #6c757d;
-}
-
-.social-icons {
-  margin-top: 1.5rem;
-}
-
-.social-icons a {
-  color: #343a40;
+.section-title {
   font-size: 1.5rem;
-  margin-right: 15px;
+  color: #163753;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #a14a2d;
+  padding-bottom: 0.5rem;
 }
 
-.social-icons a:hover {
-  color: #bd5d38;
+p, li {
+  line-height: 1.6;
 }
 
-.dev-icons {
-  list-style: none;
-  padding-left: 0;
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.dev-icons .list-inline-item {
-  background-color: #343a40;
+.card-title {
+  font-size: 1.25rem;
+  color: #163753;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.skill-badge {
+  background-color: #163753;
   color: #ffffff;
-  padding: 8px 14px;
-  margin: 6px;
+  padding: 6px 14px;
   border-radius: 20px;
-  font-size: 0.9rem;
   font-weight: 600;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.skill-badge i {
+  font-size: 1rem;
+}
+
+.cv-button {
   display: inline-block;
+  background-color: #163753;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  transition: background-color 0.2s;
 }
 
-hr {
-  border-color: #dee2e6;
+.cv-button:hover {
+  background-color: #a14a2d;
 }
 
-@media (min-width: 992px) {
-  .resume-section {
-    padding-left: 17rem;
-  }
+.read-more {
+  color: #a14a2d;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  #sideNav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 17rem;
-    padding: 0;
-  }
+.read-more:hover {
+  text-decoration: underline;
+}
 
-  .navbar-collapse {
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+@media screen and (max-width: 768px) {
+  body {
     flex-direction: column;
   }
 
-  .navbar-nav {
-    flex-direction: column;
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  .nav-links .nav-item {
+    margin: 0.5rem 1rem;
+  }
+
+  .photo-container {
+    width: 60px;
+    height: 60px;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 2rem;
   }
 }
