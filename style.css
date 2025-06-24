@@ -6,40 +6,13 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #0a192f;
+  color: #ccd6f6;
 }
 
 .sidebar {
-  background-color: #163753;
-  color: #d2d6da;
-  padding: 2rem 1rem;
-  height: 100vh;
-  position: fixed;
-  width: 260px;
-}
-
-.photo-container {
-ーディ
-
-System: The response was cut off, so I'll complete the style.css artifact by continuing from where it stopped, ensuring it matches the design of Swapnil Ogale's portfolio while incorporating the necessary styles for Cedric Baer's content. I'll maintain the Bootstrap-based layout, Font Awesome icons, devicons for skills badges, and the color scheme, spacing, and responsive structure.
-
-<xaiArtifact artifact_id="47e9a270-68b5-42a0-ae43-9abee10fd5d2" artifact_version_id="a028d5a3-41df-4558-a4ac-04787fc81222" title="style.css" contentType="text/css">
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
-}
-
-.sidebar {
-  background-color: #163753;
-  color: #d2d6da;
+  background-color: #0a192f;
+  color: #8892b0;
   padding: 2rem 1rem;
   height: 100vh;
   position: fixed;
@@ -54,7 +27,7 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #d2d6da;
+  border: 3px solid #64ffda;
   margin-bottom: 1.2rem;
 }
 
@@ -67,8 +40,8 @@ body {
 .social-icon {
   width: 40px;
   height: 40px;
-  background-color: #d2d6da;
-  color: #163753;
+  background-color: #8892b0;
+  color: #0a192f;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -78,12 +51,12 @@ body {
 }
 
 .social-icon:hover {
-  background-color: #a14a2d;
-  color: #ffffff;
+  background-color: #64ffda;
+  color: #0a192f;
 }
 
 .nav-links .nav-link {
-  color: #d2d6da;
+  color: #8892b0;
   text-decoration: none;
   font-weight: bold;
   font-size: 0.95rem;
@@ -92,85 +65,105 @@ body {
 }
 
 .nav-links .nav-link:hover {
-  color: #a14a2d;
+  color: #64ffda;
 }
 
 main {
   margin-left: 260px;
-  padding: 3rem;
-  background-color: #ffffff;
+  padding: 2rem;
+  background-color: #0a192f;
   min-height: 100vh;
 }
 
 .resume-section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .section-title {
   font-size: 1.5rem;
-  color: #163753;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #a14a2d;
-  padding-bottom: 0.5rem;
+  color: #64ffda;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #64ffda;
+  padding-bottom: 0.25rem;
+  text-transform: uppercase;
 }
 
 p, li {
   line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 .card {
   border: none;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #112240;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .card-title {
   font-size: 1.25rem;
-  color: #163753;
+  color: #ccd6f6;
 }
 
 .card-subtitle {
   font-size: 1rem;
+  color: #8892b0;
 }
 
 .card-text {
   font-size: 0.95rem;
+  color: #ccd6f6;
 }
 
 .skill-badge {
-  background-color: #163753;
-  color: #ffffff;
-  padding: 6px 14px;
+  background-color: transparent;
+  color: #ccd6f6;
+  padding: 8px 16px;
+  border: 1px solid #64ffda;
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.85rem;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
+  margin: 5px 10px 5px 0;
+  transition: background-color 0.2s;
+}
+
+.skill-badge:hover {
+  background-color: #64ffda;
+  color: #0a192f;
 }
 
 .skill-badge i {
   font-size: 1rem;
+  color: #64ffda;
+}
+
+.skill-badge:hover i {
+  color: #0a192f;
 }
 
 .cv-button {
   display: inline-block;
-  background-color: #163753;
-  color: #ffffff;
+  background-color: transparent;
+  color: #64ffda;
   padding: 10px 18px;
+  border: 1px solid #64ffda;
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   transition: background-color 0.2s;
 }
 
 .cv-button:hover {
-  background-color: #a14a2d;
+  background-color: #64ffda;
+  color: #0a192f;
 }
 
 .read-more {
-  color: #a14a2d;
+  color: #64ffda;
   text-decoration: none;
   font-weight: bold;
 }
@@ -181,9 +174,9 @@ p, li {
 
 footer {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 0.9rem;
-  color: #777;
+  color: #8892b0;
 }
 
 @media screen and (max-width: 768px) {
@@ -219,6 +212,6 @@ footer {
 
   main {
     margin-left: 0;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 }
