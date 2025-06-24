@@ -74,7 +74,8 @@ body {
 main {
   margin-left: 260px;
   padding: 3rem 4rem;
-  background-color: #2a2f3a;
+  background-color: #ffffff;
+  color: #333333;
   min-height: 100vh;
 }
 
@@ -85,7 +86,7 @@ main {
 #cedric-baer {
   margin-bottom: 3rem;
   padding: 2rem;
-  background-color: #3a4050;
+  background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
@@ -113,7 +114,7 @@ main {
 
 #cedric-baer .section-title {
   font-size: 2.5rem;
-  color: #e6e6e6;
+  color: #333333;
   margin-bottom: 1rem;
   border-bottom: 3px solid #d2691e;
   padding-bottom: 0.5rem;
@@ -123,7 +124,7 @@ main {
 
 #cedric-baer .lead {
   font-size: 1.4rem;
-  color: #e6e6e6;
+  color: #333333;
   margin-bottom: 1.2rem;
   font-weight: 400;
 }
@@ -135,7 +136,7 @@ main {
 
 #cedric-baer .experience-list li {
   font-size: 1.1rem;
-  color: #e6e6e6;
+  color: #333333;
   margin-bottom: 0.8rem;
 }
 
@@ -151,13 +152,13 @@ main {
 p, li {
   line-height: 1.6;
   font-size: 0.95rem;
-  color: #e6e6e6;
+  color: #333333;
 }
 
 .card {
   border: none;
   border-radius: 8px;
-  background-color: #3a4050;
+  background-color: #f9f9f9;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
@@ -168,22 +169,22 @@ p, li {
 
 .card-title {
   font-size: 1.2rem;
-  color: #e6e6e6;
+  color: #333333;
 }
 
 .card-subtitle {
   font-size: 0.9rem;
-  color: #b0b0b0;
+  color: #666666;
 }
 
 .card-text {
   font-size: 0.9rem;
-  color: #e6e6e6;
+  color: #333333;
 }
 
 .skill-badge {
   background-color: transparent;
-  color: #e6e6e6;
+  color: #333333;
   padding: 6px 12px;
   border: 1px solid #d2691e;
   border-radius: 15px;
@@ -198,7 +199,7 @@ p, li {
 
 .skill-badge:hover {
   background-color: #d2691e;
-  color: #2a2f3a;
+  color: #ffffff;
 }
 
 .skill-badge i {
@@ -207,7 +208,7 @@ p, li {
 }
 
 .skill-badge:hover i {
-  color: #2a2f3a;
+  color: #ffffff;
 }
 
 .cv-button {
@@ -225,7 +226,7 @@ p, li {
 
 .cv-button:hover {
   background-color: #d2691e;
-  color: #2a2f3a;
+  color: #ffffff;
 }
 
 .read-more {
@@ -237,7 +238,7 @@ p, li {
 }
 
 .read-more:hover {
-  color: #e6e6e6;
+  color: #333333;
   text-decoration: underline;
 }
 
@@ -245,7 +246,7 @@ footer {
   text-align: center;
   margin-top: 2rem;
   font-size: 0.85rem;
-  color: #b0b0b0;
+  color: #666666;
 }
 
 @media screen and (max-width: 768px) {
