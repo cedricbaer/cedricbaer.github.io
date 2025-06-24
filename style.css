@@ -63,14 +63,14 @@ body {
 }
 
 .nav-links a {
-  color: #5d6166;
+  color: #d2d6da;
   text-decoration: none;
   font-weight: bold;
   font-size: 0.95rem;
 }
 
 .nav-links a:hover {
-  color: #5d6166;
+  color: #a14a2d;
 }
 
 /* === MAIN CONTENT === */
