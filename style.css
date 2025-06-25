@@ -102,14 +102,15 @@ main {
 }
 
 #cedric-baer .section-title {
-  font-size: 36px;
-  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  font-weight: 700;
 }
 
 .section-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   color: #007F7F;
   margin-bottom: 0.8rem;
@@ -272,7 +273,7 @@ footer {
   }
 
   #cedric-baer .section-title {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   #cedric-baer .experience-list-item {
