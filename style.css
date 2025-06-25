@@ -248,16 +248,11 @@ p, li {
   text-transform: uppercase;
 }
 
-.skills-list {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 1rem;
-}
-
-.skills-list li {
+.skills-content {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 21.6px;
   color: #333333;
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -324,7 +319,7 @@ footer {
     font-size: 18px;
   }
 
-  .skills-list li {
+  .skills-content {
     font-size: 18px;
   }
 }
