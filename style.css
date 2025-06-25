@@ -241,14 +241,14 @@ p, li {
   margin-bottom: 2rem;
 }
 
-.skills-container .skills-subsection {
+main .skills-container .skills-subsection {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 21.6px;
   color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
-  font-weight: 700 !important; /* Match CÉDRIC BAER */
-  font-style: normal !important; /* Ensure no bolding beyond intended weight */
+  font-weight: normal !important; /* Reset to normal, override bold */
+  font-style: normal !important;
   -webkit-font-smoothing: antialiased; /* Improve rendering */
 }
 
