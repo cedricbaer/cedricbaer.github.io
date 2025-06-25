@@ -5,12 +5,14 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', serif;
   background-color: #2a2f3a;
   color: #e6e6e6;
+  font-size: 16px;
 }
 
 .sidebar {
+  font-family: 'Open Sans', serif;
   background-color: #2a2f3a;
   color: #b0b0b0;
   padding: 2rem 1rem;
@@ -58,10 +60,11 @@ body {
 }
 
 .nav-links .nav-link {
+  font-family: 'Open Sans', serif;
   color: #b0b0b0;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 16px;
   padding: 0.6rem 0;
   display: block;
   transition: color 0.3s ease;
@@ -69,6 +72,11 @@ body {
 
 .nav-links .nav-link:hover {
   color: #007F7F;
+}
+
+.text-white {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
 }
 
 main {
@@ -102,16 +110,16 @@ main {
 }
 
 #cedric-baer .section-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 96px;
   font-weight: 700;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
 }
 
 .section-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 56px;
   color: #007F7F;
   margin-bottom: 0.8rem;
   padding-bottom: 0.3rem;
@@ -119,15 +127,17 @@ main {
 }
 
 .experience-list-item {
-  font-size: 1.1rem;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #333333;
   margin-bottom: 0.8rem;
   list-style: none;
 }
 
 p, li {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   line-height: 1.6;
-  font-size: 0.95rem;
   color: #333333;
 }
 
@@ -144,28 +154,32 @@ p, li {
 }
 
 .card-title {
-  font-size: 1.2rem;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #333333;
 }
 
 .card-subtitle {
-  font-size: 0.9rem;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #666666;
 }
 
 .card-text {
-  font-size: 0.9rem;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #333333;
 }
 
 .skill-badge {
   background-color: transparent;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #333333;
   padding: 6px 12px;
   border: 1px solid #007F7F;
   border-radius: 15px;
   font-weight: 500;
-  font-size: 0.85rem;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -179,7 +193,7 @@ p, li {
 }
 
 .skill-badge i {
-  font-size: 1rem;
+  font-size: 16px;
   color: #007F7F;
 }
 
@@ -188,6 +202,8 @@ p, li {
 }
 
 .cv-button {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   display: inline-block;
   background-color: transparent;
   color: #007F7F;
@@ -196,7 +212,6 @@ p, li {
   border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.95rem;
   transition: all 0.3s ease;
 }
 
@@ -206,10 +221,11 @@ p, li {
 }
 
 .read-more {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #007F7F;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem;
   transition: color 0.3s ease;
 }
 
@@ -221,7 +237,8 @@ p, li {
 footer {
   text-align: center;
   margin-top: 2rem;
-  font-size: 0.85rem;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #666666;
 }
 
@@ -273,10 +290,10 @@ footer {
   }
 
   #cedric-baer .section-title {
-    font-size: 36px;
+    font-size: 72px;
   }
 
   #cedric-baer .experience-list-item {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
