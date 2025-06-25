@@ -242,18 +242,18 @@ p, li {
 }
 
 main .skills-container .skills-subsection {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 21.6px;
   color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
-  font-weight: normal !important; /* Reset to normal, override bold */
+  font-weight: 700 !important; /* Match intended weight */
   font-style: normal !important;
   -webkit-font-smoothing: antialiased; /* Improve rendering */
 }
 
 .skills-content {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 21.6px;
   color: #333333;
   margin-bottom: 3rem;
@@ -274,7 +274,7 @@ main .skills-container .skills-subsection {
 }
 
 .experience-title {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 21.6px;
   color: #333333;
   margin-bottom: 0.2rem;
@@ -282,7 +282,7 @@ main .skills-container .skills-subsection {
 }
 
 .experience-dates {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 21.6px;
   color: #007F7F;
   margin-bottom: 0.2rem;
