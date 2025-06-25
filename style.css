@@ -27,10 +27,10 @@ body {
 }
 
 .photo-container {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  border: 3px solid #007F7F;
+  border: 5px solid #007F7F;
   overflow: hidden;
   margin-bottom: 2rem;
 }
@@ -238,13 +238,14 @@ p, li {
 
 .skills-container {
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .skills-subsection {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 21.6px;
   color: #007F7F;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   text-transform: uppercase;
 }
 
@@ -252,7 +253,7 @@ p, li {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 21.6px;
   color: #333333;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 footer {
