@@ -102,40 +102,26 @@ main {
 }
 
 #cedric-baer .section-title {
-  font-size: 2.5rem;
+  font-size: 36px;
   color: #333333;
   margin-bottom: 1rem;
-  border-bottom: 3px solid #007F7F;
   padding-bottom: 0.5rem;
-  text-transform: uppercase;
   font-weight: 700;
-}
-
-#cedric-baer .lead {
-  font-size: 1.4rem;
-  color: #333333;
-  margin-bottom: 1.2rem;
-  font-weight: 400;
-}
-
-#cedric-baer .experience-list {
-  list-style: none;
-  margin-bottom: 1.5rem;
-}
-
-#cedric-baer .experience-list li {
-  font-size: 1.1rem;
-  color: #333333;
-  margin-bottom: 0.8rem;
 }
 
 .section-title {
   font-size: 1.6rem;
   color: #007F7F;
   margin-bottom: 0.8rem;
-  border-bottom: 2px solid #007F7F;
   padding-bottom: 0.3rem;
   text-transform: uppercase;
+}
+
+.experience-list-item {
+  font-size: 1.1rem;
+  color: #333333;
+  margin-bottom: 0.8rem;
+  list-style: none;
 }
 
 p, li {
@@ -286,14 +272,10 @@ footer {
   }
 
   #cedric-baer .section-title {
-    font-size: 2rem;
+    font-size: 28px;
   }
 
-  #cedric-baer .lead {
-    font-size: 1.2rem;
-  }
-
-  #cedric-baer .experience-list li {
+  #cedric-baer .experience-list-item {
     font-size: 1rem;
   }
 }
