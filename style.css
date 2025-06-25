@@ -247,8 +247,9 @@ p, li {
   color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
-  font-weight: 700 !important;
-  font-style: normal !important;
+  font-weight: 700 !important; /* Match CÉDRIC BAER */
+  font-style: normal !important; /* Ensure no bolding beyond intended weight */
+  font-weight: 700 !important; /* Fallback to ensure consistency */
 }
 
 .skills-content {
