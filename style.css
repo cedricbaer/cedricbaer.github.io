@@ -247,6 +247,7 @@ p, li {
   color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
+  font-weight: normal; /* Remove bold */
 }
 
 .skills-content {
