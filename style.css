@@ -247,15 +247,60 @@ p, li {
   color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
-  font-weight: 700 !important; /* Match CÉDRIC BAER, override inheritance */
-  font-style: normal !important; /* Ensure no bolding beyond intended weight */
+  font-weight: 700 !important;
+  font-style: normal !important;
 }
 
 .skills-content {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 21.6px;
   color: #333333;
-  margin-bottom: 3rem; /* Increased for better separation */
+  margin-bottom: 3rem;
+}
+
+.experience-container {
+  margin-top: 1rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-title-dates {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.experience-title {
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 21.6px;
+  color: #333333;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+}
+
+.experience-dates {
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 21.6px;
+  color: #007F7F;
+  margin-bottom: 0.2rem;
+}
+
+.experience-company {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  color: #333333;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.experience-description {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
 }
 
 footer {
@@ -324,6 +369,22 @@ footer {
 
   .skills-content {
     font-size: 18px;
-    margin-bottom: 2.5rem; /* Adjusted for mobile */
+    margin-bottom: 2.5rem;
+  }
+
+  .experience-title {
+    font-size: 18px;
+  }
+
+  .experience-dates {
+    font-size: 18px;
+  }
+
+  .experience-company {
+    font-size: 14px;
+  }
+
+  .experience-description {
+    font-size: 14px;
   }
 }
