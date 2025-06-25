@@ -28,7 +28,7 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #d2691e;
+  border: 3px solid #163753;
   margin-bottom: 1.5rem;
 }
 
@@ -43,7 +43,7 @@ body {
   height: 40px;
   background-color: #3a4050;
   color: #b0b0b0;
-  border: 1px solid #d2691e;
+  border: 1px solid #163753;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ body {
 }
 
 .social-icon:hover {
-  background-color: #d2691e;
+  background-color: #163753;
   color: #2a2f3a;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .nav-links .nav-link:hover {
-  color: #d2691e;
+  color: #163753;
 }
 
 main {
@@ -105,7 +105,7 @@ main {
   width: 150px;
   height: 150px;
   object-fit: cover;
-  border: 4px solid #d2691e;
+  border: 4px solid #163753;
 }
 
 #cedric-baer .header-content {
@@ -116,7 +116,7 @@ main {
   font-size: 2.5rem;
   color: #333333;
   margin-bottom: 1rem;
-  border-bottom: 3px solid #d2691e;
+  border-bottom: 3px solid #163753;
   padding-bottom: 0.5rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -142,9 +142,9 @@ main {
 
 .section-title {
   font-size: 1.6rem;
-  color: #d2691e;
+  color: #163753;
   margin-bottom: 0.8rem;
-  border-bottom: 2px solid #d2691e;
+  border-bottom: 2px solid #163753;
   padding-bottom: 0.3rem;
   text-transform: uppercase;
 }
@@ -186,7 +186,7 @@ p, li {
   background-color: transparent;
   color: #333333;
   padding: 6px 12px;
-  border: 1px solid #d2691e;
+  border: 1px solid #163753;
   border-radius: 15px;
   font-weight: 500;
   font-size: 0.85rem;
@@ -198,13 +198,13 @@ p, li {
 }
 
 .skill-badge:hover {
-  background-color: #d2691e;
+  background-color: #163753;
   color: #ffffff;
 }
 
 .skill-badge i {
   font-size: 1rem;
-  color: #d2691e;
+  color: #163753;
 }
 
 .skill-badge:hover i {
@@ -214,9 +214,9 @@ p, li {
 .cv-button {
   display: inline-block;
   background-color: transparent;
-  color: #d2691e;
+  color: #163753;
   padding: 10px 20px;
-  border: 1px solid #d2691e;
+  border: 1px solid #163753;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
@@ -225,12 +225,12 @@ p, li {
 }
 
 .cv-button:hover {
-  background-color: #d2691e;
+  background-color: #163753;
   color: #ffffff;
 }
 
 .read-more {
-  color: #d2691e;
+  color: #163753;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
