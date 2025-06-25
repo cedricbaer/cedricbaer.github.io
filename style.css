@@ -25,13 +25,19 @@ body {
   border-right: 1px solid #3a4050;
 }
 
+.sidebar-top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 .photo-container {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #007F7F;
-  margin-bottom: 1.5rem;
+  margin-right: 1rem;
 }
 
 .contact-links {
@@ -251,12 +257,21 @@ footer {
     position: static;
     width: 100%;
     height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     padding: 1.5rem;
     border-right: none;
     border-bottom: 1px solid #3a4050;
+  }
+
+  .sidebar-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .photo-container {
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 
   .nav-links {
@@ -270,11 +285,6 @@ footer {
     margin: 0.6rem 1.2rem;
   }
 
-  .photo-container {
-    width: 80px;
-    height: 80px;
-  }
-
   main {
     margin-left: 0;
     padding: 2rem;
@@ -283,10 +293,6 @@ footer {
   #cedric-baer .header-container {
     flex-direction: column;
     text-align: center;
-  }
-
-  #cedric-baer .photo-wrapper {
-    margin-bottom: 1rem;
   }
 
   #cedric-baer .section-title {
