@@ -252,4 +252,78 @@ p, li {
 }
 
 .skills-content {
-  font-family: 'Saira Extra
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 21.6px;
+  color: #333333;
+  margin-bottom: 3rem; /* Increased for better separation */
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  color: #666666;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-right: none;
+    border-bottom: 1px solid #3a4050;
+  }
+
+  .photo-container {
+    margin-bottom: 1rem;
+  }
+
+  .contact-links {
+    margin-bottom: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .nav-links .nav-item {
+    margin: 0.6rem 1.2rem;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 2rem;
+  }
+
+  #cedric-baer .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #cedric-baer .section-title {
+    font-size: 72px;
+  }
+
+  #cedric-baer .experience-list-item {
+    font-size: 16px;
+  }
+
+  .skills-subsection {
+    font-size: 18px;
+  }
+
+  .skills-content {
+    font-size: 18px;
+    margin-bottom: 2.5rem; /* Adjusted for mobile */
+  }
+}
