@@ -236,6 +236,30 @@ p, li {
   text-decoration: underline;
 }
 
+.skills-container {
+  margin-top: 1rem;
+}
+
+.skills-subsection {
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 21.6px;
+  color: #007F7F;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.skills-list li {
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 21.6px;
+  color: #333333;
+}
+
 footer {
   text-align: center;
   margin-top: 2rem;
@@ -294,5 +318,13 @@ footer {
 
   #cedric-baer .experience-list-item {
     font-size: 16px;
+  }
+
+  .skills-subsection {
+    font-size: 18px;
+  }
+
+  .skills-list li {
+    font-size: 18px;
   }
 }
