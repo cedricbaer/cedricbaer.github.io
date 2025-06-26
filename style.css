@@ -112,7 +112,7 @@ main {
 }
 
 #cedric-baer .section-title {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'BebasNeue', sans-serif;
   font-size: 96px;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -120,7 +120,7 @@ main {
 }
 
 .section-title {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'BebasNeue', sans-serif;
   font-size: 56px;
   color: #007F7F;
   margin-bottom: 0.8rem;
@@ -242,7 +242,7 @@ p, li {
 }
 
 main .skills-container .skills-subsection {
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'BebasNeue', sans-serif;
   font-size: 21.6px;
   color: #007F7F;
   margin-bottom: 0.2rem;
@@ -253,7 +253,7 @@ main .skills-container .skills-subsection {
 }
 
 .skills-content {
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'BebasNeue', sans-serif;
   font-size: 21.6px;
   color: #333333;
   margin-bottom: 3rem;
@@ -274,7 +274,7 @@ main .skills-container .skills-subsection {
 }
 
 .experience-title {
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'BebasNeue', sans-serif;
   font-size: 21.6px;
   color: #333333;
   margin-bottom: 0.2rem;
@@ -282,7 +282,7 @@ main .skills-container .skills-subsection {
 }
 
 .experience-dates {
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'BebasNeue', sans-serif;
   font-size: 21.6px;
   color: #007F7F;
   margin-bottom: 0.2rem;
