@@ -113,7 +113,7 @@ main {
 
 #cedric-baer .section-title {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 96px;
+  font-size: 60px; /* Reduced from 96px */
   font-weight: 700;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
@@ -121,7 +121,7 @@ main {
 
 .section-title {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 56px;
+  font-size: 32px; /* Reduced from 56px */
   color: #007F7F;
   margin-bottom: 0.8rem;
   padding-bottom: 0.3rem;
@@ -243,18 +243,18 @@ p, li {
 
 main .skills-container .skills-subsection {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 21.6px;
+  font-size: 18px; /* Reduced from 21.6px */
   color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
-  font-weight: 700 !important; /* Match intended weight */
+  font-weight: 700 !important;
   font-style: normal !important;
-  -webkit-font-smoothing: antialiased; /* Improve rendering */
+  -webkit-font-smoothing: antialiased;
 }
 
 .skills-content {
-  font-family: 'BebasNeue', sans-serif;
-  font-size: 21.6px;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
   color: #333333;
   margin-bottom: 3rem;
 }
@@ -275,15 +275,15 @@ main .skills-container .skills-subsection {
 
 .experience-title {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 21.6px;
-  color: #333333;
+  font-size: 18px; /* Reduced from 21.6px */
+  color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
 }
 
 .experience-dates {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 21.6px;
+  font-size: 18px; /* Reduced from 21.6px */
   color: #007F7F;
   margin-bottom: 0.2rem;
 }
@@ -357,28 +357,28 @@ footer {
   }
 
   #cedric-baer .section-title {
-    font-size: 72px;
+    font-size: 48px; /* Reduced from 72px for mobile */
   }
 
   #cedric-baer .experience-list-item {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .skills-subsection {
-    font-size: 18px;
+    font-size: 16px; /* Reduced from 18px for mobile */
   }
 
   .skills-content {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 2.5rem;
   }
 
   .experience-title {
-    font-size: 18px;
+    font-size: 16px; /* Reduced from 18px for mobile */
   }
 
   .experience-dates {
-    font-size: 18px;
+    font-size: 16px; /* Reduced from 18px for mobile */
   }
 
   .experience-company {
