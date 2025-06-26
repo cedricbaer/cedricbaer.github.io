@@ -256,7 +256,7 @@ main .skills-container .skills-subsection {
   font-family: 'Open Sans', serif;
   font-size: 16px;
   color: #333333;
-  margin-bottom: 0.8rem; /* Restore original spacing */
+  margin-bottom: 0.8rem;
 }
 
 .experience-container {
@@ -272,7 +272,7 @@ main .skills-container .skills-subsection {
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
-  margin-bottom: 0.5rem; /* Add spacing below title-dates */
+  margin-bottom: 0.5rem;
 }
 
 main .experience-container .skills-subsection {
@@ -289,8 +289,8 @@ main .experience-container .skills-subsection {
 .experience-dates {
   font-family: 'BebasNeue', sans-serif;
   font-size: 18px;
-  color: #333333;
-  flex-shrink: 0; /* Prevent date from shrinking and wrapping */
+  color: #007F7F; /* Changed to match subsection color */
+  flex-shrink: 0;
 }
 
 .experience-company {
@@ -375,7 +375,7 @@ footer {
 
   .skills-content {
     font-size: 14px;
-    margin-bottom: 0.5rem; /* Adjusted for mobile */
+    margin-bottom: 0.5rem;
   }
 
   .experience-title-dates {
