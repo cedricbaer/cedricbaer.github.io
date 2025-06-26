@@ -267,10 +267,21 @@ main .skills-container .skills-subsection {
   margin-bottom: 2rem;
 }
 
+main .experience-container .skills-subsection {
+  font-family: 'BebasNeue', sans-serif;
+  font-size: 18px;
+  color: #007F7F !important; /* Enforce color match */
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+}
+
 .experience-dates {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 16px; /* Adjusted to be smaller and separate from title */
-  color: #333333; /* Changed to match body text for contrast */
+  font-size: 16px;
+  color: #333333;
   margin-bottom: 0.5rem;
 }
 
@@ -357,6 +368,10 @@ footer {
   .skills-content {
     font-size: 14px;
     margin-bottom: 2.5rem;
+  }
+
+  main .experience-container .skills-subsection {
+    font-size: 16px;
   }
 
   .experience-dates {
