@@ -113,7 +113,7 @@ main {
 
 #cedric-baer .section-title {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 60px; /* Reduced from 96px */
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
@@ -121,7 +121,7 @@ main {
 
 .section-title {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 32px; /* Reduced from 56px */
+  font-size: 32px;
   color: #007F7F;
   margin-bottom: 0.8rem;
   padding-bottom: 0.3rem;
@@ -243,7 +243,7 @@ p, li {
 
 main .skills-container .skills-subsection {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 18px; /* Reduced from 21.6px */
+  font-size: 18px;
   color: #007F7F;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
@@ -267,25 +267,11 @@ main .skills-container .skills-subsection {
   margin-bottom: 2rem;
 }
 
-.experience-title-dates {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.experience-title {
-  font-family: 'BebasNeue', sans-serif;
-  font-size: 18px; /* Reduced from 21.6px */
-  color: #007F7F;
-  margin-bottom: 0.2rem;
-  text-transform: uppercase;
-}
-
 .experience-dates {
   font-family: 'BebasNeue', sans-serif;
-  font-size: 18px; /* Reduced from 21.6px */
-  color: #007F7F;
-  margin-bottom: 0.2rem;
+  font-size: 16px; /* Adjusted to be smaller and separate from title */
+  color: #333333; /* Changed to match body text for contrast */
+  margin-bottom: 0.5rem;
 }
 
 .experience-company {
@@ -357,7 +343,7 @@ footer {
   }
 
   #cedric-baer .section-title {
-    font-size: 48px; /* Reduced from 72px for mobile */
+    font-size: 48px;
   }
 
   #cedric-baer .experience-list-item {
@@ -365,7 +351,7 @@ footer {
   }
 
   .skills-subsection {
-    font-size: 16px; /* Reduced from 18px for mobile */
+    font-size: 16px;
   }
 
   .skills-content {
@@ -373,12 +359,8 @@ footer {
     margin-bottom: 2.5rem;
   }
 
-  .experience-title {
-    font-size: 16px; /* Reduced from 18px for mobile */
-  }
-
   .experience-dates {
-    font-size: 16px; /* Reduced from 18px for mobile */
+    font-size: 14px;
   }
 
   .experience-company {
