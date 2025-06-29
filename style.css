@@ -87,6 +87,7 @@ main {
   background-color: #ffffff;
   color: #333333;
   min-height: 100vh;
+  overflow: auto; /* Ensure content stays within bounds */
 }
 
 .resume-section {
@@ -289,7 +290,7 @@ main .experience-container .skills-subsection {
 .experience-dates {
   font-family: 'BebasNeue', sans-serif;
   font-size: 18px;
-  color: #007F7F; /* Changed to match subsection color */
+  color: #007F7F;
   flex-shrink: 0;
 }
 
